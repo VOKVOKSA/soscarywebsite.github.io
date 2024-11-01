@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    font-size: 5rem;
+}
+.hr_thin {
+    height: 2px;
+    background-color: black;
+}
+.hr_fat {
+    height: 10px;
+    background-color: black;
+}
+.p_thin {
+    font-size: 2rem;
+}
+.p_fat {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.dostalovse {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
