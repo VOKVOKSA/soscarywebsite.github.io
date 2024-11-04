@@ -10,6 +10,10 @@ h1 {
     height: 10px;
     background-color: black;
 }
+.hr_veryfat {
+    height: 20px;
+    background-color: black;
+}
 .p_thin {
     font-size: 2rem;
 }
@@ -22,4 +26,31 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+.nichegonedostalo {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+h2 {
+    font-size: 4rem;
+}
+.p_verysmall {
+    font-size: 1rem;
+}
+.textmargin {
+    margin-left: 40px;
+}
+.textmargin2 {
+    margin-left: 60px;
+    font-weight: unset;
+}
+.container1 {
+    width: 50%;
+    border: black 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
